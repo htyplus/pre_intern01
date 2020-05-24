@@ -10,6 +10,7 @@
                 width:100%;
                 height:150px;
                 position:absolute;
+                overflow: hidden;
                 top:0;
                 left:0;
                 right: 0;
@@ -18,10 +19,10 @@
             .mainbody
             {
                 position:absolute;
-                top:200px;
+                top:240px;
                 left:0px;
                 right:0px;
-
+                overflow: hidden;
                 width:100%;
                 height:550px;
                 
@@ -31,9 +32,12 @@
             left: 0;
             bottom: 0;
             width: 100%;
+            height: 45px;
             background-color: darkblue;
             color: white;
             text-align: center;
+            overflow: hidden;
+            padding-top: 10px;
             }
             .logo
             {
@@ -84,14 +88,13 @@
                  position:absolute;
                 top:150px;
                 left: 0px;
-                
+
                 width:100%;
                 }
 
                 .topnav a {
                  float: left;
                 color: #8d8f94;
-                 text-align: center;
                 padding: 14px 16px;
                  text-decoration: none;
                  font-size: 17px;
@@ -101,7 +104,7 @@
 
             .topnav a:hover {
               background-color: #ddd;
-              color: black;
+              color:darkgreen;
             }
 
             .topnav a.active {
@@ -158,6 +161,7 @@ p {
   margin-top: 50px;
   background-color:whitesmoke;
   position: absolute;
+  
 }
 /*list*/
 ul.a {
